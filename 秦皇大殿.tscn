@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ih2wc5jekbrv"]
+
+[ext_resource type="PackedScene" uid="uid://dvxwuu4y07usm" path="res://module_主殿.tscn" id="1_ah3ae"]
+
+[node name="秦皇大殿" type="Node2D" unique_id=1140036098]
+
+[node name="Module_主殿" parent="." unique_id=589930089 instance=ExtResource("1_ah3ae")]

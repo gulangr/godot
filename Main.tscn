@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://bexa0u3g3bxrh"]
+
+[ext_resource type="Script" uid="uid://b765547qiwwcm" path="res://MapManager.gd" id="1_uu6xs"]
+[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="2_bg4s2"]
+[ext_resource type="Resource" uid="uid://c64pympt3ahmm" path="res://ROOM/bei.tres" id="3_hhcpw"]
+[ext_resource type="Resource" uid="uid://cx0bjs0lt2qqh" path="res://ROOM/nan.tres" id="4_mxvw5"]
+[ext_resource type="Resource" uid="uid://dgyirt3fdu5gc" path="res://ROOM/xi.tres" id="5_xrxkg"]
+[ext_resource type="Resource" uid="uid://vlooa6vgb0j4" path="res://ROOM/东+南+西.tres" id="6_sqvbp"]
+[ext_resource type="Resource" uid="uid://bro3mjaj4bgy8" path="res://ROOM/东+南.tres" id="7_hri7i"]
+[ext_resource type="Resource" uid="uid://bpgmovtfl8jtv" path="res://ROOM/东+西.tres" id="8_w3rk5"]
+[ext_resource type="Resource" uid="uid://yccrvd5rakb4" path="res://ROOM/东.tres" id="9_5mvff"]
+[ext_resource type="Resource" uid="uid://bvhg56d0k2je7" path="res://ROOM/全封闭.tres" id="10_bg4s2"]
+[ext_resource type="Resource" uid="uid://dy1dhxlclgmqe" path="res://ROOM/北+东+南.tres" id="11_oye8v"]
+[ext_resource type="Resource" uid="uid://b1r7tu2kjm5l" path="res://ROOM/北+东+西.tres" id="12_40n85"]
+[ext_resource type="Resource" uid="uid://b4jpyeurggk7h" path="res://ROOM/北+东.tres" id="13_gb15f"]
+[ext_resource type="Resource" uid="uid://ct8qn2kgpwliq" path="res://ROOM/北+南+西.tres" id="14_sph85"]
+[ext_resource type="Resource" uid="uid://dof3gjf4mit8y" path="res://ROOM/北+南.tres" id="15_o7g6l"]
+[ext_resource type="Resource" uid="uid://dtxns5no0ctk2" path="res://ROOM/北+西.tres" id="16_vi5kq"]
+[ext_resource type="Resource" uid="uid://cw4dd86j51k30" path="res://ROOM/南+北.tres" id="17_5mkgo"]
+[ext_resource type="Resource" uid="uid://csftvbfurea33" path="res://ROOM/南+西.tres" id="18_3ccbu"]
+[ext_resource type="Resource" uid="uid://ct8ax4pbixhui" path="res://ROOM/四面八方.tres" id="19_ny7u2"]
+[ext_resource type="Resource" uid="uid://me0qnm7uk313" path="res://ROOM/塌方.tres" id="20_devvj"]
+[ext_resource type="PackedScene" uid="uid://dv35yb2p4byp4" path="res://RoomView.tscn" id="21_devvj"]
+[ext_resource type="Script" uid="uid://b77kuqj5miyft" path="res://CameraController.gd" id="22_3b0ty"]
+[ext_resource type="PackedScene" uid="uid://csq1e6ixwo5xl" path="res://player.tscn" id="22_bg4s2"]
+
+[node name="Main_tscn" type="Node2D" unique_id=677629593]
+script = ExtResource("1_uu6xs")
+room_pool = Array[ExtResource("2_bg4s2")]([ExtResource("3_hhcpw"), ExtResource("4_mxvw5"), ExtResource("5_xrxkg"), ExtResource("6_sqvbp"), ExtResource("7_hri7i"), ExtResource("8_w3rk5"), ExtResource("9_5mvff"), ExtResource("11_oye8v"), ExtResource("12_40n85"), ExtResource("13_gb15f"), ExtResource("14_sph85"), ExtResource("15_o7g6l"), ExtResource("16_vi5kq"), ExtResource("17_5mkgo"), ExtResource("18_3ccbu"), ExtResource("19_ny7u2")])
+cave_in_data = ExtResource("20_devvj")
+abyss_data = ExtResource("10_bg4s2")
+room_scene = ExtResource("21_devvj")
+player_scene = ExtResource("22_bg4s2")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1168769514]
+script = ExtResource("22_3b0ty")
