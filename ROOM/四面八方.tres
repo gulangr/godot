@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://ct8ax4pbixhui"]
+
+[ext_resource type="Script" uid="uid://d0db32bswddsx" path="res://RoomData.gd" id="1_c6p1m"]
+
+[resource]
+script = ExtResource("1_c6p1m")
+doors_bitmask = 15
+room_name = "十字中殿 / 祭祀大厅"
+weight = 2

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://dgyirt3fdu5gc"]
+
+[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="1_8461u"]
+
+[resource]
+script = ExtResource("1_8461u")
+doors_bitmask = 8
+room_name = "西面殉葬坑"
+metadata/_custom_type_script = "uid://dsdgp7vrhaocd"

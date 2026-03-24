@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://cw4dd86j51k30"]
+
+[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="1_r8dja"]
+
+[resource]
+script = ExtResource("1_r8dja")
+doors_bitmask = 5
+room_name = "南北墓道"
+weight = 20
+metadata/_custom_type_script = "uid://dsdgp7vrhaocd"

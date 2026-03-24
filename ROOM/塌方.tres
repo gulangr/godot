@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://me0qnm7uk313"]
+
+[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="1_g0vvg"]
+
+[resource]
+script = ExtResource("1_g0vvg")
+room_name = "断龙石 / 夯土层 / 隐藏密室"
+room_type = "塌方"
+weight = 5
+metadata/_custom_type_script = "uid://dsdgp7vrhaocd"

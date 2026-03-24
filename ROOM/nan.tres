@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://cx0bjs0lt2qqh"]
+
+[ext_resource type="Script" uid="uid://d0db32bswddsx" path="res://RoomData.gd" id="1_djbug"]
+
+[resource]
+script = ExtResource("1_djbug")
+doors_bitmask = 4
+room_name = "南向死胡同 / 疑冢"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://dy1dhxlclgmqe"]
+
+[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="1_ekn4t"]
+
+[resource]
+script = ExtResource("1_ekn4t")
+doors_bitmask = 7
+room_name = "丁字路口 (缺西)"
+metadata/_custom_type_script = "uid://dsdgp7vrhaocd"

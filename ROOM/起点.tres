@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://idjwfhhbq4mx"]
+
+[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="1_j42dh"]
+
+[resource]
+script = ExtResource("1_j42dh")
+doors_bitmask = 15
+room_name = "盗洞（起点）"
+room_type = "起点"
+metadata/_custom_type_script = "uid://dsdgp7vrhaocd"
