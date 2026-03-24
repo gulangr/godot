@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://djl0mdaie61qx"]
+
+[node name="RoomView" type="Node2D" unique_id=1904832089]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2122606377]
+offset_right = 40.0
+offset_bottom = 40.0

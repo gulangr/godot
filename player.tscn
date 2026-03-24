@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://csq1e6ixwo5xl"]
+
+[ext_resource type="Texture2D" uid="uid://cwujpto3acoea" path="res://icon.svg" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://ccr81rh1jpcmr" path="res://Player.gd" id="2_i3pqv"]
+
+[sub_resource type="Gradient" id="Gradient_hqtel"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_sweqy"]
+gradient = SubResource("Gradient_hqtel")
+fill = 1
+fill_from = Vector2(0.5, 0.508547)
+fill_to = Vector2(0.9017094, 0.14957266)
+
+[node name="Player" type="Node2D" unique_id=498959998]
+z_index = 10
+script = ExtResource("2_i3pqv")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2045207040]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_onrkg")
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=764127202]
+enabled = false
+texture = SubResource("GradientTexture2D_sweqy")
+texture_scale = 4.0

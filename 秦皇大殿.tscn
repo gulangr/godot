@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://ih2wc5jekbrv"]
+
+[ext_resource type="PackedScene" uid="uid://dv35yb2p4byp4" path="res://RoomView.tscn" id="1_ah3ae"]
+[ext_resource type="Resource" uid="uid://ct8ax4pbixhui" path="res://ROOM/四面八方.tres" id="2_353ra"]
+[ext_resource type="Resource" uid="uid://csftvbfurea33" path="res://ROOM/南+西.tres" id="4_3iajp"]
+[ext_resource type="Texture2D" uid="uid://1uufw6tt4iha" path="res://地砖tietu/Gemini_Generated_Image_9kpin19kpin19kpi (2).png" id="4_353ra"]
+[ext_resource type="Resource" uid="uid://bro3mjaj4bgy8" path="res://ROOM/东+南.tres" id="5_rih1w"]
+[ext_resource type="Resource" uid="uid://b4jpyeurggk7h" path="res://ROOM/北+东.tres" id="6_st33i"]
+[ext_resource type="Resource" uid="uid://dtxns5no0ctk2" path="res://ROOM/北+西.tres" id="7_oi3ie"]
+[ext_resource type="Resource" uid="uid://dof3gjf4mit8y" path="res://ROOM/北+南.tres" id="8_blyeo"]
+[ext_resource type="Resource" uid="uid://bpgmovtfl8jtv" path="res://ROOM/东+西.tres" id="9_3yhc5"]
+
+[node name="秦皇大殿" type="Node2D" unique_id=1140036098]
+
+[node name="RoomView7" parent="." unique_id=2114669300 instance=ExtResource("1_ah3ae")]
+position = Vector2(512, 512)
+quick_setup_doors = 15
+data = ExtResource("2_353ra")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView8" parent="." unique_id=1904832089 instance=ExtResource("1_ah3ae")]
+position = Vector2(1024, 0)
+quick_setup_doors = 12
+data = ExtResource("4_3iajp")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView12" parent="." unique_id=744150214 instance=ExtResource("1_ah3ae")]
+position = Vector2(1024, 512)
+quick_setup_doors = 15
+data = ExtResource("2_353ra")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView13" parent="." unique_id=386541824 instance=ExtResource("1_ah3ae")]
+position = Vector2(512, 0)
+quick_setup_doors = 15
+data = ExtResource("2_353ra")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView18" parent="." unique_id=580859751 instance=ExtResource("1_ah3ae")]
+quick_setup_doors = 6
+data = ExtResource("5_rih1w")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView19" parent="." unique_id=1390206558 instance=ExtResource("1_ah3ae")]
+position = Vector2(0, 512)
+quick_setup_doors = 15
+data = ExtResource("2_353ra")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView9" parent="." unique_id=1915438205 instance=ExtResource("1_ah3ae")]
+position = Vector2(512, 1024)
+quick_setup_doors = 15
+data = ExtResource("2_353ra")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView10" parent="." unique_id=281618045 instance=ExtResource("1_ah3ae")]
+position = Vector2(0, 1024)
+quick_setup_doors = 3
+data = ExtResource("6_st33i")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView11" parent="." unique_id=2016942821 instance=ExtResource("1_ah3ae")]
+position = Vector2(1024, 1024)
+quick_setup_doors = 9
+data = ExtResource("7_oi3ie")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView14" parent="." unique_id=1841145698 instance=ExtResource("1_ah3ae")]
+position = Vector2(512, -512)
+quick_setup_doors = 5
+data = ExtResource("8_blyeo")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView15" parent="." unique_id=1575436812 instance=ExtResource("1_ah3ae")]
+position = Vector2(-512, 512)
+quick_setup_doors = 10
+data = ExtResource("9_3yhc5")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView17" parent="." unique_id=108831818 instance=ExtResource("1_ah3ae")]
+position = Vector2(1536, 512)
+quick_setup_doors = 10
+data = ExtResource("9_3yhc5")
+local_texture = ExtResource("4_353ra")
+
+[node name="RoomView16" parent="." unique_id=382615046 instance=ExtResource("1_ah3ae")]
+position = Vector2(512, 1536)
+quick_setup_doors = 5
+data = ExtResource("8_blyeo")
+local_texture = ExtResource("4_353ra")
