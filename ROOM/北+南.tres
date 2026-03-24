@@ -1,8 +1,0 @@
-[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://dof3gjf4mit8y"]
-
-[ext_resource type="Script" uid="uid://d0db32bswddsx" path="res://RoomData.gd" id="1_4c67y"]
-
-[resource]
-script = ExtResource("1_4c67y")
-doors_bitmask = 5
-room_name = "直通神道 / 甬道"

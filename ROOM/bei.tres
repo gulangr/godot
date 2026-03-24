@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://c64pympt3ahmm"]
-
-[ext_resource type="Script" uid="uid://dsdgp7vrhaocd" path="res://RoomData.gd" id="1_ldiui"]
-
-[resource]
-script = ExtResource("1_ldiui")
-doors_bitmask = 1
-room_name = "北面耳室 / 藏经洞"
-metadata/_custom_type_script = "uid://dsdgp7vrhaocd"

@@ -1,7 +1,0 @@
-[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://c66cx8fsxw6a"]
-
-[ext_resource type="Script" uid="uid://jqnfwl4ypy01" path="res://RoomData - 副本.gd" id="1_g5ko2"]
-
-[resource]
-script = ExtResource("1_g5ko2")
-metadata/_custom_type_script = "uid://jqnfwl4ypy01"

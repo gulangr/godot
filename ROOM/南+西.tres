@@ -1,8 +1,0 @@
-[gd_resource type="Resource" script_class="RoomData" format=3 uid="uid://csftvbfurea33"]
-
-[ext_resource type="Script" uid="uid://d0db32bswddsx" path="res://RoomData.gd" id="1_rqojb"]
-
-[resource]
-script = ExtResource("1_rqojb")
-doors_bitmask = 12
-room_name = "西南拐角"
